@@ -1,0 +1,10 @@
+streamlit
+werkzeug
+pandas
+numpy
+tensorflow
+scikit-learn
+tqdm
+streamlit-lottie
+requests
+plotly
