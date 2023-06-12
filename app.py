@@ -50,7 +50,7 @@ train_generator, validation_generator, test_generator = train_val_generators(tra
 
 
 # Load the trained model
-model = tf.keras.models.load_model('brain_tumor.h5')
+model = tf.keras.models.load_model('Desktop/brain_tumor_V10/brain_tumor.h5')
 
 def prediction(YOUR_IMAGE_PATH):
     img = image.load_img(YOUR_IMAGE_PATH, target_size=(150, 150))
