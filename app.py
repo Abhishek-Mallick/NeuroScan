@@ -15,7 +15,6 @@ from tqdm import tqdm
 from streamlit_lottie import st_lottie
 import requests
 import plotly.graph_objects as go
-import gdown
 import urllib.request
 
 def load_lottieurl(url: str):
